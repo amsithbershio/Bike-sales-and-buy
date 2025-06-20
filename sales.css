@@ -1,0 +1,192 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* background-color: blanchedalmond;  */
+    
+}
+.head{
+height:90px ;
+width: 100%;
+background-color: rgb(0, 0, 0);
+display: flex;
+}
+.d1{
+height:100px;
+width: 40%;
+/* background-color: rgb(87, 34, 172); */
+margin-left: 200px;
+display: flex;
+}
+.d1 p{
+    color: rgb(237, 241, 247);
+    font-family: Papyrus, fantasy ;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.d2{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    width:70%;
+}
+.nav-link a{
+    text-decoration:none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.sec1{
+height:500px ;
+width: 100%;
+background-color: rgb(0, 0, 0);
+background-image: url(./bike2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1150px 700px;
+padding-top: 10px;
+
+}
+.d3{
+   height: 400px; 
+   width: 100%;
+   /* background-color: aquamarine; */
+}
+.d3 p{
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 500px;
+    padding-top: 30px;
+
+}
+.sec2{
+height: 450px;
+width: 100%;
+background-color: rgb(0, 0, 0);
+}
+.sec2 p{
+    padding-left: 500px;
+    font-size: 50px;
+    color: white;
+    padding-top: 10px;
+}
+.step{
+    width: 10   0%;
+    /* background-color:orange; */
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    
+}
+.step-child{
+    width:30%;
+    margin-left: 30px;
+    height:350px; 
+    margin-top: 20px;  
+    border-radius: 20px; 
+    background-color: rgb(248, 248, 194);
+}
+h3{
+    font-family: arial;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+h4{
+    
+    font-family: arial;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(247, 242, 234);
+}
+.foot{
+    height: 250px;
+    width: 80%;
+    /* background-color: rgb(156, 156, 5) ; */
+    margin-left: 90px;
+    display: flex;
+    padding-top: 30px;
+}
+.foot-child{
+height: 200px;
+width: 50%;
+/* background-color: blue; */
+margin-left: 30px;
+border-right: 1px solid hsla(0, 0%, 80%, .4627450980392157);
+background-image: url(./foot1.webp);
+
+
+}
+h2{
+    padding-left: 90px;
+    font-family:Papyrus;
+    font-size: 30px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.p6{
+    padding-left:90px ;
+    font-size: 40px;
+    color: red;
+    padding-top: 20px;
+}
+.sec3{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(18, 20, 20);
+    
+}
+.d4{
+    height: 70px;
+    width: 100%;
+    /* background-color: blue; */
+    padding-top: 20px;
+    
+}
+.why{
+    padding-left: 400px;
+    font-size: 40px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.d5{
+    height: 400px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    padding-top: 40px;
+}
+.d5-child{
+    height: 300px;
+    width: 25%;
+    /* background-color: blueviolet; */
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 90px;
+    color: aliceblue;
+}
+.d5-child p{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  
+}
+.d5-child h6{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px
+}
