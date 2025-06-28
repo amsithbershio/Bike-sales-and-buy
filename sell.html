@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sell your bike</title>
+  <link rel="stylesheet" href="sell.css">
+</head>
+<body>
+  <h1>Sell your bike</h1>
+  <p>Enter your bike details</p>
+
+  <form>
+    <div class="row">
+      <div>
+        <label for="brand">Brand:</label><br>
+        <select id="brand" name="brand">
+          <option value="">Select Brand</option>
+          <option value="KTM">KTM</option>
+          <option value="BAJAJ">BAJAJ</option>
+          <option value="SUZUKI">SUZUKI</option>
+          <option value="HERO">HERO</option>
+          <option value="HONDA">HONDA</option>
+          <option value="YAMAHA">YAMAHA</option>
+          <option value="TVS">TVS</option>
+        </select>
+      </div>
+      <div>
+        <label for="model">Model:</label><br>
+        <input type="text" id="model" name="model" placeholder="Enter model">
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="year">Year:</label><br>
+        <select id="year" name="year">
+          <option value="">Select Year</option>
+          <!-- JavaScript could generate this dynamically, but here it's static -->
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+        </select>
+      </div>
+      <div>
+        <label for="kms">KMs Run:</label><br>
+        <input type="number" id="kms" name="kms">
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="price">Asking Price:</label><br>
+        <input type="number" id="price" name="price">
+      </div>
+      <div>
+        <label for="cc">Engine CC:</label><br>
+        <input type="number" id="cc" name="cc">
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number">
+      </div>
+      <div>
+        <label for="bikePic">Add Bike picture:</label><br>
+        <input type="file" id="bikePic" name="bikePic">
+      </div>
+    </div>
+
+    <div>
+      <textarea class="full-width" rows="3" placeholder="Add details like condition of bike, documentation etc"></textarea>
+    </div>
+
+    <button type="submit">Sell Bike</button>
+  </form>
+</body>
+</html>
